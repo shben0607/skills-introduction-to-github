@@ -1,0 +1,15 @@
+en=int(input("請輸入你的英文分數:"))
+ch=int(input("請輸入你的中文分數:"))
+mu=int(input("請輸入你的數學分數:"))
+
+
+av=(en+ch+mu)/3
+num=en+ch+mu
+if  av>=90:
+    nv=("你的表現很優秀:")
+elif av>=81:
+    nv=("你的表現很還可以:")
+elif av>=70:
+    nv=("你需要再加油:")
+elif av<=69:
+     nv=("你考很爛多努力:")
